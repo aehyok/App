@@ -22,7 +22,7 @@ namespace aehyok.App
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
-            //Navigation.PushModalAsync(new MasterDetailPage.MasterDetailPageTest());
+            Navigation.PushModalAsync(new NewPage1());
         }
 
         private void Button_Clicked_2(object sender, EventArgs e)
