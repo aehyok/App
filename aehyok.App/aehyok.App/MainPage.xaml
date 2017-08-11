@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:aehyok.App"
              x:Class="aehyok.App.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms aehyok!" 
+	<Label Text="Welcome to Xamarin Forms 米糖宝宝!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
-
+    <StackLayout>
+        <Button Text="打开CarouselPage" Clicked="Button_Clicked"></Button>
+        <Button Text="打开MasterDetailPage" Clicked="Button_Clicked_1"></Button>
+        <Button Text="打开TabbedPageTest" Clicked="Button_Clicked_2"></Button>
+        <Button Text="打开StackLayout" Clicked="Button_Clicked_3"></Button>
+        <Button Text="打开AbsoluteLayout" Clicked="Button_Clicked_4"></Button>
+        <Button Text="打开RelativeLayout" Clicked="Button_Clicked_5"></Button>
+        <Button Text="打开Grid" Clicked="Button_Clicked_6"></Button>
+    </StackLayout>
 </ContentPage>

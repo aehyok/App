@@ -12,7 +12,7 @@ namespace aehyok.App
         public App()
         {
             InitializeComponent();
-
+            //MainPage = new Xamarin.Forms.NavigationPage(new aehyok.App.MainPage()) { BarBackgroundColor = Color.Red };
             MainPage = new aehyok.App.MainPage();
         }
 
