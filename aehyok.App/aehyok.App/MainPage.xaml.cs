@@ -14,6 +14,11 @@ namespace aehyok.App
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 弹框
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Clicked(object sender, EventArgs e)
         {
             DisplayAlert("测试弹框", "Hello My First Message", "取消");
@@ -27,7 +32,7 @@ namespace aehyok.App
 
         private void Button_Clicked_2(object sender, EventArgs e)
         {
-            //Navigation.PushModalAsync(new TabbedPage.TabbedPageTest());
+            Navigation.PushModalAsync(new TabPage());
         }
 
         private void Button_Clicked_3(object sender, EventArgs e)
